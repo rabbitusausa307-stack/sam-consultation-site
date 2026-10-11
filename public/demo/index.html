@@ -23,7 +23,7 @@
 <aside class="panel result"><span class="tag">YOUR MEMO / 相談の下書き</span><h3>伝えたいことを、一枚に。</h3><p class="help" id="resultHelp">左の項目から相談文を生成してください。ここで直接編集することもできます。</p><label for="result" class="help">相談文</label><textarea id="result" aria-describedby="resultHelp" placeholder="生成した相談文がここに表示されます。"></textarea><div class="actions"><button type="button" id="copy">文章をコピー</button><button type="button" id="download" class="secondary">テキストを保存</button></div><p class="status" id="status" role="status" aria-live="polite"></p><p class="help">このページには送信機能はありません。コピーした文章を、実際の相談先の連絡手段でお使いください。入力内容は保存されず、再読み込みで消えます。</p></aside></div></section>
 <section><div class="section-head"><div class="eyebrow">02 / Photo guide</div><h2>写真があると、伝えやすい。</h2><p>相談先から写真を求められたら、次の3つを参考に。ここでは撮影・アップロードは不要です。</p></div><div class="guide"><article><b>01</b><h3>清掃箇所の全体</h3><p>少し離れて、機器や清掃箇所全体がわかる1枚を。床や周囲の作業スペースも写ると状況を伝えやすくなります。</p></article><article><b>02</b><h3>気になる汚れ</h3><p>明るい場所で、気になる部分を近くから。無理な分解や高い場所への登り降りはせず、届く範囲で撮影してください。</p></article><article><b>03</b><h3>機器の型番</h3><p>確認できる場合は、メーカー・型番のラベルを。氏名や住所、顔などが写っていないか、送る前に確認しましょう。</p></article></div></section>
 <p class="smallprint">このページは、清掃業者向け「見積相談導線整備」の営業用サンプルです。「すみずみ清掃室」は架空の名称であり、実在の清掃サービスを提供していません。</p>
-</main><footer>SUMIZUMI — DEMONSTRATION ONLY<br>実装例：相談項目の整理 / 相談文の生成 / コピー・テキスト保存 / 写真案内</footer>
+</main><footer><section aria-label="このようなページの制作相談"><h2>自社の相談案内を整えたい事業者さまへ</h2><p>ここまでの内容は架空の清掃業者のデモです。SAMでは、事業内容に合わせた相談案内ページと返信テンプレートを制作します。</p><p><a class="cta" href="../consult.html">SAMに制作を相談する →</a></p><p><a href="../index.html">制作範囲・料金を確認する</a></p></section><p>SUMIZUMI — DEMONSTRATION ONLY<br>実装例：相談項目の整理 / 相談文の生成 / コピー・テキスト保存 / 写真案内</p></footer>
 <script>
 'use strict';
 function buildMemo(data) {
@@ -68,3 +68,4 @@ document.getElementById('download').addEventListener('click', function() {
 </script>
 </body>
 </html>
+
